@@ -250,6 +250,7 @@ section .image {
 }
 #clients h2 {
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .client {
@@ -676,6 +677,9 @@ section .detail-image {
   /* clients */
   .client-item-container li {
     width: 50%;
+  }
+  #clients {
+    padding: 0 50px;
   }
   /* end clients */
 
