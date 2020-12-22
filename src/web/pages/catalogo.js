@@ -1,30 +1,32 @@
 import * as React from "react";
 
-import '../../assets/styles.css';
-import more from '../../assets/plus.svg';
-import menu01 from '../../assets/devices/menu-01.png';
-import menu02 from '../../assets/devices/menu-02.png';
-import menu03 from '../../assets/devices/menu-03.png';
-import menu04 from '../../assets/devices/menu-04.png';
-import menu05 from '../../assets/devices/menu-05.png';
-import menu06 from '../../assets/devices/menu-06.png';
-import menu07 from '../../assets/devices/menu-07.png';
-import menu08 from '../../assets/devices/menu-08.png';
-import menu09 from '../../assets/devices/menu-09.png';
+import "../../assets/styles.css";
+import more from "../../assets/plus.svg";
+import menu01 from "../../assets/devices/menu-01.png";
+import menu02 from "../../assets/devices/menu-02.png";
+import menu03 from "../../assets/devices/menu-03.png";
+import menu04 from "../../assets/devices/menu-04.png";
+import menu05 from "../../assets/devices/menu-05.png";
+import menu06 from "../../assets/devices/menu-06.png";
+import menu07 from "../../assets/devices/menu-07.png";
+import menu08 from "../../assets/devices/menu-08.png";
+import menu09 from "../../assets/devices/menu-09.png";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
 function Catalogo(props) {
   React.useEffect(() => {
-      window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }, [props.location]);
 
   return (
     <>
-
       <Header otherClass> </Header>
       <div className="detail-title">
-        <h2>Ofrezca acceso directamente a su carta y permita conocer lo que usted ofrece sin esfuerzo.</h2>
+        <h2>
+          Ofrezca acceso directamente a su carta y permita conocer lo que usted
+          ofrece sin esfuerzo.
+        </h2>
       </div>
 
       <div className="gallery">
@@ -103,7 +105,6 @@ function Catalogo(props) {
       </div>
 
       <Footer />
-
     </>
   );
 }

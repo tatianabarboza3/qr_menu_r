@@ -1,6 +1,6 @@
 # Introducción a VIRTUAL MENÚ
 
-Esta web es un proyecto que se realizó con el fin acercar a restaurantes a la digitalización del menú de su negocio, creando un Código QR que permita a sus clientes leer la carta en sus dispositivos personales.
+Esta web es un proyecto que se realizó con el fin acercar a restaurantes a la digitalización del menú de su negocio, a travéz de un Código QR que permita a sus clientes leer la carta en sus dispositivos personales.
 
 En el directorio del proyecto, debe ejecutar:
 
@@ -16,9 +16,11 @@ Abrir [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
 
 La página se volverá a cargar si realiza modificaciones. 
 
-## Components
+## Componentes
 
 - [React](https://facebook.github.io/react/) como librería para front-end.
+- [Prettier](https://prettier.io/) como un formateador de codigo.
+- [ESLint](https://eslint.org/) como un buscador y solucuionador de problemas en el código.
 - [Antd](https://ant.design/) como UI framework.
 - [Axios](https://github.com/axios/axios) cliente HTTP basado en promises para el navegador y node.js.
 - [Animate](https://animate.style/) es una librería de animaciones entre navegadores, listas para usar en sus proyectos web.

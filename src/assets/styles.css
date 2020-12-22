@@ -742,6 +742,16 @@ section .detail-image {
   /* end thankyou */
 }
 
+/* sm - xs */
+@media screen and (min-width:476px) and (max-width:684px) {
+  .navBox {
+    display: none;
+  }
+  nav {
+    justify-content: center;
+  }
+}
+
 /* xs */
 @media screen and (max-width:475px) {
   /* generics */
@@ -781,6 +791,9 @@ section .detail-image {
     padding-right: 0;
     height: auto;
     justify-content: flex-start;
+  }
+  .navBox {
+    display: flex;
   }
   nav ul {
     display: none;
