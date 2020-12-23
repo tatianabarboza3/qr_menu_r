@@ -39,7 +39,7 @@ function Footer(props) {
             <h3>Contacto</h3>
             <div>
               <img src={whatsapp} alt="Whatsapp" />
-              <a href="tel:+59893963446"> 093 963 446 </a>
+              <a href="tel:+59894370258"> 094 370 258 </a>
             </div>
             <div>
               <img src={contact} alt="Email" />
