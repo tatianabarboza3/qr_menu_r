@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import menu from "../../assets/menu.svg";
 import clear from "../../assets/clear.svg";
 import imageHeader from "../../assets/imageHeader.svg";
@@ -68,9 +68,8 @@ function Header(props) {
                 x="0px"
                 y="0px"
                 viewBox="0 0 307 126.5"
-                style={{ enableBackground: "new 0 0 307 126.5" }}
-                xmlSpace="preserve"
-              >
+                style={{enableBackground: "new 0 0 307 126.5"}}
+                xmlSpace="preserve">
                 <g>
                   <g id="_x33_Xy4la.tif_2_">
                     <g id="path_01">
@@ -213,15 +212,13 @@ function Header(props) {
             <li
               onClick={() => {
                 setIsMenuOpen(false);
-              }}
-            >
+              }}>
               <Link to="/#section-01">inicio</Link>
             </li>
             <li
               onClick={() => {
                 setIsMenuOpen(false);
-              }}
-            >
+              }}>
               <Link to="/#section-02">menues</Link>
             </li>
             <li>
@@ -230,8 +227,7 @@ function Header(props) {
             <li
               onClick={() => {
                 setIsMenuOpen(false);
-              }}
-            >
+              }}>
               <Link to="/#contact">contacto</Link>
             </li>
           </ul>
@@ -242,11 +238,7 @@ function Header(props) {
         <div className="headerBox">
           <div className="headerContent animate__animated animate__bounceIn">
             <h1>Virtual Menú</h1>
-            <h4>
-              Digitalizamos el menú de su negocio y creamos un Código QR que
-              permite a sus clientes leer la carta en sus dispositivos
-              personales.
-            </h4>
+            <h4>Digitalizamos el menú de su negocio y creamos un Código QR que permite a sus clientes leer la carta en sus dispositivos personales.</h4>
           </div>
         </div>
       </header>

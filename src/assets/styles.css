@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
 }
 
@@ -54,13 +54,13 @@ button {
   border: 2px solid #000000;
   outline: none;
   cursor: pointer;
-  transition: .9s ease;
+  transition: 0.9s ease;
   -webkit-appearance: none;
   height: 54px;
 }
 
 button:hover {
-  transition: .9s ease;
+  transition: 0.9s ease;
   color: #000000;
   background: transparent;
   border: 2px solid #000000;
@@ -76,7 +76,7 @@ nav {
   width: 100%;
   padding-right: 100px;
   z-index: 99;
-  background: #F8D66D;
+  background: #f8d66d;
 }
 
 nav ul {
@@ -95,13 +95,13 @@ nav .logo {
   background: #fff;
   padding: 8px 30px 8px;
   border: 4px solid #000;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 nav .logo:hover {
   fill: #ffffff;
   background-color: #000;
-  transition: .8s ease-in-out;
+  transition: 0.8s ease-in-out;
   border: 4px solid #ffffff;
 }
 
@@ -116,15 +116,15 @@ nav li a {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 a:hover {
-  color: #DE8B5F !important;
+  color: #de8b5f !important;
 }
 
 .menu-active {
-  color: #DE8B5F;
+  color: #de8b5f;
   border-bottom: 3px solid #000;
 }
 
@@ -152,7 +152,7 @@ header {
 }
 
 .headerBox {
-  background: #F8D66D;
+  background: #f8d66d;
   height: 80vh;
   display: flex;
   justify-content: flex-end;
@@ -224,7 +224,7 @@ section .image {
 }
 
 #section-02 {
-  background: #BCDDE9;
+  background: #bcdde9;
 }
 
 #section-02 img {
@@ -233,7 +233,7 @@ section .image {
 }
 
 #section-03 {
-  background: #DE8B5F;
+  background: #de8b5f;
 }
 
 #section-03 img {
@@ -279,18 +279,30 @@ section .image {
 }
 
 @-moz-keyframes fade {
-  from {opacity: .3}
-  to {opacity: 1}
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .3}
-  to {opacity: 1}
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .3}
-  to {opacity: 1}
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .client-item-container {
@@ -303,7 +315,7 @@ section .image {
   margin: 0;
   padding: 0;
   left: 0;
-  transition: left ease-in .3s;
+  transition: left ease-in 0.3s;
 }
 
 .client-item-container li {
@@ -315,7 +327,7 @@ section .image {
   flex-shrink: 0;
   height: 100px;
   width: 20%;
-  transition: width ease-in .3s;
+  transition: width ease-in 0.3s;
 }
 
 .client img {
@@ -400,7 +412,7 @@ form > div {
 label {
   font-size: 18px;
   font-weight: 500;
-  color: #BFBFBF;
+  color: #bfbfbf;
   padding: 0 5px;
   background-color: #000000;
   position: absolute;
@@ -435,27 +447,27 @@ textarea {
 }
 
 footer .button {
-  background: #F8D66D;
+  background: #f8d66d;
   color: #000000;
   border-radius: 100px;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   padding: 10px 60px;
-  border: 2px solid #F8D66D;
+  border: 2px solid #f8d66d;
   outline: none;
   cursor: pointer;
-  transition: .5s ease;
+  transition: 0.5s ease;
   -webkit-appearance: none;
   text-align: center;
   width: 100%;
 }
 
 footer .button:hover {
-  color: #F8D66D;
+  color: #f8d66d;
   background: transparent;
-  border: 2px solid #F8D66D;
-  transition: .5s ease;
+  border: 2px solid #f8d66d;
+  transition: 0.5s ease;
 }
 /* end form */
 
@@ -480,7 +492,8 @@ footer .button:hover {
 /* end footer */
 
 /* Detail */
-.detail-01, .detail-02 {
+.detail-01,
+.detail-02 {
   height: 70vh;
 }
 
@@ -539,7 +552,7 @@ section .detail-image {
 }
 
 .image-box:hover .image {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .image-box:hover .more-icon {
@@ -562,7 +575,7 @@ section .detail-image {
 
 /* thank you */
 .thankyou-span {
-  color: #DE8B5F;
+  color: #de8b5f;
 }
 
 .thankyou {
@@ -591,7 +604,7 @@ section .detail-image {
 /* RESPONSIVE MOOD */
 
 /* random */
-@media screen and (max-width:1100px) {
+@media screen and (max-width: 1100px) {
   /* header */
   header img {
     width: 80%;
@@ -603,7 +616,7 @@ section .detail-image {
 }
 
 /* md */
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   /* header */
   .headerImage {
     left: 50px;
@@ -622,7 +635,7 @@ section .detail-image {
 }
 
 /* sm */
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   /* nav */
   nav {
     padding-right: 50px;
@@ -704,7 +717,8 @@ section .detail-image {
     width: 100%;
     padding: 50px 50px 0;
   }
-  .detail-01, .detail-02 {
+  .detail-01,
+  .detail-02 {
     height: auto;
   }
   .detail-content p {
@@ -743,7 +757,7 @@ section .detail-image {
 }
 
 /* sm - xs */
-@media screen and (min-width:476px) and (max-width:684px) {
+@media screen and (min-width: 476px) and (max-width: 684px) {
   .navBox {
     display: none;
   }
@@ -753,7 +767,7 @@ section .detail-image {
 }
 
 /* xs */
-@media screen and (max-width:475px) {
+@media screen and (max-width: 475px) {
   /* generics */
   h1 {
     font-size: 54px;
@@ -762,7 +776,8 @@ section .detail-image {
     font-size: 24px;
     margin: 20px 0 0;
   }
-  p, a {
+  p,
+  a {
     font-size: 20px !important;
   }
   h2 {
@@ -800,7 +815,7 @@ section .detail-image {
     flex-direction: column;
     padding: 60px 0;
     height: calc(100vh - 90px);
-    background: #F8D66D;
+    background: #f8d66d;
   }
   nav li {
     padding: 10px;
@@ -846,7 +861,7 @@ section .detail-image {
 
   /* footer */
   .contactBox {
-    padding: 60px 20px 80px
+    padding: 60px 20px 80px;
   }
   .contact > div > img {
     height: 20px;
@@ -858,7 +873,8 @@ section .detail-image {
     top: -13px;
     left: 35px;
   }
-  input, textarea {
+  input,
+  textarea {
     font-size: 18px;
     padding: 10px 20px;
   }
@@ -903,7 +919,7 @@ section .detail-image {
 }
 
 /* xxs */
-@media screen and (max-width:360px) {
+@media screen and (max-width: 360px) {
   /* header */
   .headerContent {
     margin: 0 20px;

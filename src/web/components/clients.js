@@ -16,9 +16,7 @@ function renderSliderC(itemsC) {
 }
 
 window.addEventListener("load", function () {
-  sliderContainerC = document.getElementsByClassName(
-    "client-item-container"
-  )[0];
+  sliderContainerC = document.getElementsByClassName("client-item-container")[0];
   sliderContainerC.classList.add("fade");
 
   setInterval(function () {
@@ -42,9 +40,7 @@ function Clients(props) {
   const [data, setData] = React.useState([]);
 
   React.useEffect(async () => {
-    const result = await axios(
-      "https://tatianabarboza3.github.io/restaurant-logos/restaurant-collection.json"
-    );
+    const result = await axios("https://tatianabarboza3.github.io/restaurant-logos/restaurant-collection.json");
 
     setData(result.data);
   }, []);

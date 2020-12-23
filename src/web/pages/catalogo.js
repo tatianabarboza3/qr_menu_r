@@ -23,10 +23,7 @@ function Catalogo(props) {
     <>
       <Header otherClass> </Header>
       <div className="detail-title">
-        <h2>
-          Ofrezca acceso directamente a su carta y permita conocer lo que usted
-          ofrece sin esfuerzo.
-        </h2>
+        <h2>Ofrezca acceso directamente a su carta y permita conocer lo que usted ofrece sin esfuerzo.</h2>
       </div>
 
       <div className="gallery">

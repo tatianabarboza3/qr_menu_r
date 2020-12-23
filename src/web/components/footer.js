@@ -1,12 +1,12 @@
 import * as React from "react";
 
-import { Form, Input, Button } from "antd";
+import {Form, Input, Button} from "antd";
 
 import whatsapp from "../../assets/contact/whatsapp.svg";
 import contact from "../../assets/contact/contact.svg";
 import location from "../../assets/contact/location.svg";
 import copyright from "../../assets/copyright.svg";
-import { useHistory } from "react-router-dom";
+import {useHistory} from "react-router-dom";
 
 function Footer(props) {
   let history = useHistory();
@@ -53,33 +53,26 @@ function Footer(props) {
           <div className="form">
             <h3>Consultas</h3>
 
-            <Form
-              {...layout}
-              name="nest-messages"
-              onFinish={onFinish}
-              validateMessages={validateMessages}
-            >
+            <Form {...layout} name="nest-messages" onFinish={onFinish} validateMessages={validateMessages}>
               <Form.Item
                 name={["user", "name"]}
-                label="Nombre"
+                label="Nombre *"
                 rules={[
                   {
                     required: true,
                   },
-                ]}
-              >
+                ]}>
                 <Input />
               </Form.Item>
               <Form.Item
                 name={["user", "email"]}
-                label="Email"
+                label="Email *"
                 rules={[
                   {
                     type: "email",
                     required: true,
                   },
-                ]}
-              >
+                ]}>
                 <Input />
               </Form.Item>
               <Form.Item name={["user", "tel"]} label="Teléfono">
@@ -87,16 +80,15 @@ function Footer(props) {
               </Form.Item>
               <Form.Item
                 name={["user", "introduction"]}
-                label="Mensaje"
+                label="Mensaje *"
                 rules={[
                   {
                     required: true,
                   },
-                ]}
-              >
+                ]}>
                 <Input.TextArea />
               </Form.Item>
-              <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
+              <Form.Item wrapperCol={{...layout.wrapperCol, offset: 8}}>
                 <Button type="primary" htmlType="submit" className="button">
                   Enviar
                 </Button>

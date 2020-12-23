@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import "../../assets/styles.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./home";
 import Detail from "./detail";
 import Catalogo from "./catalogo";
