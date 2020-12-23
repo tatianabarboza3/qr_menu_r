@@ -19,8 +19,6 @@ La página se volverá a cargar si realiza modificaciones.
 ## Componentes
 
 - [React](https://facebook.github.io/react/) como librería para front-end.
-- [Prettier](https://prettier.io/) como un formateador de codigo.
-- [ESLint](https://eslint.org/) como un buscador y solucuionador de problemas en el código.
 - [Antd](https://ant.design/) como UI framework.
 - [Axios](https://github.com/axios/axios) cliente HTTP basado en promises para el navegador y node.js.
 - [Animate](https://animate.style/) es una librería de animaciones entre navegadores, listas para usar en sus proyectos web.
