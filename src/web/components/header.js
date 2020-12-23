@@ -15,7 +15,6 @@ function setIsMenuOpen(value) {
 }
 
 function setMenuStyle() {
-  console.log("------------------");
   var menu = document.getElementById("menu");
   var menuSM = document.getElementById("menu-sm");
   var cross = document.getElementById("cross");
@@ -32,7 +31,6 @@ function setMenuStyle() {
 }
 
 window.addEventListener("resize", function () {
-  console.log("RESIZE");
   var isMobile = window.innerWidth <= 475;
 
   if (lastIsMobile !== isMobile) {
@@ -42,19 +40,16 @@ window.addEventListener("resize", function () {
 });
 
 window.addEventListener("hashchange", function () {
-  console.log("hash");
   setIsMenuOpen(false);
 });
 // end Hamburger Mood ------------------------------------------------------------------------------------>
 
 function Header(props) {
   const handleMenuSmClick = React.useCallback(() => {
-    console.log("HANDLE SM CLICK");
     setIsMenuOpen(true);
   }, []);
 
   const handleCrossClick = React.useCallback(() => {
-    console.log("HANDLE CROSS CLICK");
     setIsMenuOpen(false);
   }, []);
 

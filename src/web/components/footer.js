@@ -6,9 +6,11 @@ import whatsapp from "../../assets/contact/whatsapp.svg";
 import contact from "../../assets/contact/contact.svg";
 import location from "../../assets/contact/location.svg";
 import copyright from "../../assets/copyright.svg";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Footer(props) {
+  let history = useHistory();
+
   const layout = {
     labelCol: {
       span: 8,
@@ -25,8 +27,8 @@ function Footer(props) {
     },
   };
 
-  const onFinish = (values) => {
-    console.log(values);
+  const onFinish = () => {
+    history.push("/thankyou");
   };
 
   return (
@@ -95,11 +97,9 @@ function Footer(props) {
                 <Input.TextArea />
               </Form.Item>
               <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
-                <Link to="/thankyou">
-                  <Button type="primary" htmlType="submit" className="button">
-                    Enviar
-                  </Button>
-                </Link>
+                <Button type="primary" htmlType="submit" className="button">
+                  Enviar
+                </Button>
               </Form.Item>
             </Form>
           </div>
